@@ -14,7 +14,7 @@ const CustomInput:FC<InputProps & React.ComponentProps<typeof TextInput>> = ({
     onClear, left, right = true, ...props
 }) => {
   return (
-    <View>
+    <View style={styles.flexRow}>
       {left}
       <TextInput {...props} style={styles.inputContainer} placeholderTextColor='#ccc' />
       <View style={styles.icon} >

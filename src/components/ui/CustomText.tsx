@@ -17,7 +17,7 @@ interface Props {
     | 'body';
   fontFamily?: Fonts;
   fontSize?: number;
-  style: TextStyle | TextStyle[];
+  style?: TextStyle | TextStyle[];
   children?: React.ReactNode;
   numberOfLines?: number;
   onLayout?: (event: object) => void;
